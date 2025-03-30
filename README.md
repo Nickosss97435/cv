@@ -11,7 +11,7 @@ Passionné de développement, j'aime travailler sur des projets qui me tiennent 
         <img alt="https://b2nservices.com" title="https://b2nservices.com" src="https://cv.b2nservices.com/media/logo.png" width="64"/>
     </a>
     <a href="https://cv-nickosss35974.vercel.app/">
-        <img alt="Mon Curriculum Vitae" title="Voir le site" src="./src//assets//cv.png" width="64"/>
+        <img alt="Mon Curriculum Vitae" title="Voir le site" src="./src//assets//cv.png" width="84"/>
     </a>
     <a href="https://www.youtube.com">
         <i class="fab fa-youtube" style="font-size: 64px; color: red;"></i>
