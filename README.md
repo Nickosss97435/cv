@@ -5,7 +5,10 @@ Passionné de développement, j'aime travailler sur des projets qui me tiennent 
 
 <p align="left">
     <a href="https://github.com/Nickosss97435">
-        <img alt="https://github.com/Nickosss97435" title="https://github.com/Nickosss97435" src="https://cv.b2nservices.com/media/logo.png" width="64"/>
+        <img alt="https://github.com/Nickosss97435" title="https://github.com/Nickosss97435" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="64"/>
+    </a>
+    <a href="https://b2nservices.com">
+        <img alt="https://b2nservices.com" title="https://b2nservices.com" src="https://cv.b2nservices.com/media/logo.png" width="64"/>
     </a>
     <a href="https://cv-nickosss35974.vercel.app/">
         <img alt="Mon Curriculum Vitae" title="Voir le site" src="https://api.iconify.design/mdi:link.svg" width="64"/>
