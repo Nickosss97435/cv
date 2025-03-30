@@ -8,7 +8,7 @@ Passionné de développement, j'aime travailler sur des projets qui me tiennent 
      <a href="https://github.com/Nickosss97435">
          <img alt="views" title="views" src="https://b2nservices.com"/></a> 
       <a href="https://cv-nickosss35974.vercel.app/">
-         <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://b2nservices.com"/></a> 
+         <img alt="Mon Curriculum Vitae" title="Voir le site" src="https://b2nservices.com"/></a> 
       <a href="https://www.youtube.com">
          <img alt="youtube views" title="YouTube views" src="https://b2nservices.com"/></a> 
   
