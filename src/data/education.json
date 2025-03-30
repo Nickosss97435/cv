@@ -1,0 +1,42 @@
+[
+    {
+      "title": "Formation niveau 1 IRVE",
+      "company": "LEGRAND",
+      "startDate": "2022-06-01",
+      "description": "Formation de Niveau 1 sur la mise en place et norme IRVE."
+    },
+    {
+      "title": "VAE Technicien de maintenance Informatiques",
+      "company": "VAE",
+      "startDate": "2021-02-01",
+      "endDate": "2021-07-01",
+      "description": "Validaion des aquis"
+    },
+    {
+      "title": "Formation Gérance",
+      "company": "CFA de Saint Denis",
+      "startDate": "2011-06-01",
+      "description": "Formation pour préparer à la gérance."
+    },
+    {
+      "title": "BAC Pro COBALU",
+      "company": "CFA du bâtiment à PLERIN",
+      "startDate": "2024",
+      "endDate": "2025",
+      "description": "BAC Proffesionnel Bureau Etude Batiment & produits de syntése"
+    },
+    {
+      "title": "Mention complémentaire APS",
+      "company": "Lycée Saint ETIENNE, CESSION CEVIGNE",
+      "startDate": "2002",
+      "endDate": "2003",
+      "description": "Mention complémentaire Aluminum & produits de syntése"
+    },
+    {
+      "title": "BEP/CAP BMA",
+      "company": "Lycée Saint ETIENNE, CESSION CEVIGNE",
+      "startDate": "2002",
+      "endDate": "2001",
+      "description": "BEP/CAP Bois et Matériaux Associés"
+    }
+  ]

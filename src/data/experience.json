@@ -1,0 +1,44 @@
+[
+    {
+      "title": "Resposable informatique",
+      "company": "Blandin Distribution Océan Indien",
+      "startDate": "01-10-2024",
+      "endDate": "Aujourd'hui",
+      "description": "Administrateur réseau, Dévellopeur FullStack."
+    },
+    {
+      "title": "Resposable informatique",
+      "company": "HZH Mondistri",
+      "startDate": "16-08-2021",
+      "endDate": "31-09-2024",
+      "description": "Administrateur réseau, Dévellopeur FullStack."
+    },
+    {
+      "title": "Responsable Co-Gérant",
+      "company": "SARL Walali",
+      "startDate": "01-02-2015",
+      "endDate": "08-12-2020",
+      "description": "Administrateur réseau, Dévellopeur FullStack, vente & installation de systeme des sécurité réseau."
+    },
+    {
+      "title": "Informatique & Télécommunication",
+      "company": "DIRECTIQUE",
+      "startDate": "01-05-2012",
+      "endDate": "31-05-2011",
+      "description": "Test & diagnostique réseau pour le compte de Orange Réunion."
+    },
+    {
+      "title": "Gérant",
+      "company": "Les 4 Saveurs Culinaires",
+      "startDate": "01-04-2011",
+      "endDate": "31-08-2012",
+      "description": "Développement de solutions web innovantes."
+    },
+    {
+      "title": "Technicien de maintenance informatique",
+      "company": "Chronos Informatique",
+      "startDate": "01-08-2010",
+      "endDate": "31-09-2010",
+      "description": "Diagnostique et réparer tout type d'ordinateur, Administrateur réseau, motage Ordinateur Gammer"
+    }
+  ]

@@ -1,0 +1,12 @@
+{
+    "name": "Nicolas QUÉRAT",
+    "jobTitle": "Développeur Fullstack",
+    "phoneNumber": "+262 692 06 25 23",
+    "email": "contact@b2nservices.com",
+    "address": "1 Chemin de la ferme Avicole",
+    "CP": "97419",
+    "ville": "La Possession",
+    "region": "La Réunion",
+    "birthdate": "1984-02-21",
+    "image": "../assets/profile.jpeg"
+  }
