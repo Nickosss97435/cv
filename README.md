@@ -11,14 +11,7 @@ Passionné de développement, j'aime travailler sur des projets qui me tiennent 
         <img alt="Mon Curriculum Vitae" title="Voir le site" src="https://api.iconify.design/mdi:link.svg" width="64"/>
     </a>
     <a href="https://www.youtube.com">
-        <!-- Option 1: Utiliser une icône Font Awesome (nécessite l'inclusion de Font Awesome) -->
-        <!-- <i class="fab fa-youtube" style="font-size: 64px; color: red;"></i> -->
-
-        <!-- Option 2: Utiliser une image SVG locale (téléchargez l'icône et hébergez-la localement) -->
-        <!-- <img src="./images/youtube-logo.svg" alt="YouTube" width="64"/> -->
-
-        <!-- Option 3: Utiliser une URL vers une icône SVG (peut ne pas être fiable à long terme) -->
-        <img alt="YouTube" title="YouTube" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/youtube/youtube-original.svg" width="64"/>
+        <i class="fab fa-youtube" style="font-size: 64px; color: red;"></i>
     </a>
 </p>
 
