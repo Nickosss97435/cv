@@ -15,7 +15,7 @@ function ProjectsCarousel() {
     {
       title: "Electric Plus Réunion",
       subtitle: "Site Vitrine pour le compte de la société Électric Plus Réunion",
-      link: "mondistri.re",
+      link: "https://mondistri.re",
       status: "En production",
       logo: EPLogo,
       tags: ["OpenCV", "React"],
