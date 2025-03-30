@@ -9,7 +9,7 @@ Passionné de développement, j'aime travailler sur des projets qui me tiennent 
          <img alt="views" title="views" src="https://b2nservices.com"/></a> 
       <a href="https://www.youtube.com/">
          <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://b2nservices.com"/></a> 
-      <a href="https://www.youtube.com/c/FaïzDev">
+      <a href="https://www.youtube.com">
          <img alt="youtube views" title="YouTube views" src="https://b2nservices.com"/></a> 
   
 
