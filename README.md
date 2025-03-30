@@ -1,4 +1,4 @@
-# Nicolas QURAT
+# Nicolas QUÉRAT
 **`Dévellopeur fullstack`**
 Passionné de développement, j'aime travailler sur des projets qui me tiennent à cœur.
 
