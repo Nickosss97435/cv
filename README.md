@@ -6,9 +6,9 @@ Passionné de développement, j'aime travailler sur des projets qui me tiennent 
 
   <p align="left">
      <a href="https://github.com/Nickosss97435">
-         <img alt="views" title="views" src="https://b2nservices.com"/></a> 
+         <img alt="https://github.com/Nickosss97435" title="https://github.com/Nickosss97435" src="https://cv.b2nservices.com/media/logo.png"/></a> 
       <a href="https://cv-nickosss35974.vercel.app/">
-         <img alt="Mon Curriculum Vitae" title="Voir le site" src="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome/svgs/solid/globe.svg"/></a> 
+         <img alt="Mon Curriculum Vitae" title="Voir le site" src="https://api.iconify.design/mdi:link.svg"/></a> 
       <a href="https://www.youtube.com">
          <img alt="youtube views" title="YouTube views" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/youtube/youtube-original.svg"/></a> 
   
