@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImage from '../img/404-Ampoule.jpeg';
+import bgImage from '../assets/404-Ampoule.jpeg';
 
 const NotFound = () => {
   return (
