@@ -34,20 +34,13 @@ Passionné de développement, j'aime travailler sur des projets qui me tiennent 
 
 ### 📊 Stats
 
-![Stistiques](https://github-readme-stats.vercel.app/api?username=Nickosss97435&show_icons=true&theme=gruvbox)
+![Statistiques](https://github-readme-stats.vercel.app/api?username=Nickosss97435&show_icons=true&theme=gruvbox)
 
 ---
 
 ### 📁 Structure du projet cv-react
 
-
-
-
-
-
-
-[youtube]: https://www.youtube.com/
-
+```plaintext
 cv-react/
 ├── public/
 │   └── cv.pdf
