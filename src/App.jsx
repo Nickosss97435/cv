@@ -10,6 +10,7 @@ import Education from "./pages/Education";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const { theme, toggleTheme } = useTheme();
@@ -43,6 +44,7 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound/>} />
           </Routes>
         </main>
       </div>
