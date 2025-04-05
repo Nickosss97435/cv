@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import logo from "../assets/vite.svg";
+import logo from "../assets/profil-2.svg";
 import {
   FaHome,
   FaBriefcase,
@@ -9,6 +9,7 @@ import {
   FaEnvelope,
   FaCode,
 } from "react-icons/fa";
+import { NavLink } from "react-router-dom"; // Utilisation de NavLink
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   const links = [
@@ -18,7 +19,6 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     { name: "Formation", href: "/education", icon: <FaGraduationCap /> },
     { name: "Projets", href: "/projects", icon: <FaProjectDiagram /> },
     { name: "Contact", href: "/contact", icon: <FaEnvelope /> },
-    
   ];
 
   return (
@@ -31,49 +31,23 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       transition={{ duration: 0.5 }}
     >
       {/* Header avec logo et bouton de collapse */}
-      <div className="flex items-center mb-8">
-        <img
-          src={logo}
-          alt="logo"
-          className={`h-8 w-auto ${isOpen ? "" : "mx-auto"}`}
-        />
-        {isOpen && (
-          <span className="text-xl font-semibold ml-2">Mon Portfolio</span>
-        )}
+      <div
+        className={`flex items-center justify-center ${
+          isOpen ? "mb-8" : "my-4" // Réduit l'espacement lorsque la sidebar est fermée
+        }`}
+      >
+        {/* Logo utilisé comme bouton de basculement */}
         <button
           onClick={toggleSidebar}
-          className="ml-auto focus:outline-none text-gray-400 hover:text-white"
+          className="focus:outline-none flex items-center justify-center"
         >
-          {isOpen ? (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          ) : (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
+          <img
+            src={logo}
+            alt="logo"
+            className={`h-8 w-auto ${isOpen ? "" : "mx-auto"}`}
+          />
+          {isOpen && (
+            <span className="text-xl font-semibold ml-2">Mon Portfolio</span>
           )}
         </button>
       </div>
@@ -88,9 +62,13 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
               transition={{ type: "spring", stiffness: 300 }}
               className="mb-4"
             >
-              <a
-                href={link.href}
-                className="flex items-center text-gray-400 hover:text-white rounded-lg transition-colors"
+              <NavLink
+                to={link.href} // Utilisation de `to` pour la navigation
+                className={({ isActive }) =>
+                  `flex items-center text-gray-400 hover:text-white rounded-lg transition-colors ${
+                    isActive ? "text-white font-bold" : ""
+                  }`
+                }
               >
                 <span
                   className={`${
@@ -100,7 +78,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                   {link.icon}
                 </span>
                 {isOpen && link.name}
-              </a>
+              </NavLink>
             </motion.li>
           ))}
         </ul>

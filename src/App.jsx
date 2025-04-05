@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence, motion } from "framer-motion"; // Importation de framer-motion
 import { useTheme } from "./theme";
 import { TiAdjustBrightness, TiAdjustContrast } from "react-icons/ti";
 import Sidebar from "./components/Sidebar";
@@ -11,6 +12,32 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+
+function AnimatedRoutes() {
+  const location = useLocation(); // Récupère l'emplacement actuel
+
+  return (
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={location.pathname} // Clé unique basée sur le chemin
+        initial={{ opacity: 0, x: -50 }} // Animation d'entrée
+        animate={{ opacity: 1, x: 0 }} // Animation active
+        exit={{ opacity: 0, x: 50 }} // Animation de sortie
+        transition={{ duration: 0.5 }} // Durée de la transition
+      >
+        <Routes location={location}>
+          <Route path="/" element={<Home />} />
+          <Route path="/languages" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </motion.div>
+    </AnimatePresence>
+  );
+}
 
 function App() {
   const { theme, toggleTheme } = useTheme();
@@ -35,17 +62,9 @@ function App() {
         </button>
         {/* Sidebar */}
         <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-        {/* Contenu principal */}
-        <main className={`transition-all duration-300 `}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/languages" element={<About />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound/>} />
-          </Routes>
+        {/* Contenu principal avec animations */}
+        <main className={`transition-all duration-300 ml-[64px]`}>
+          <AnimatedRoutes />
         </main>
       </div>
     </Router>
