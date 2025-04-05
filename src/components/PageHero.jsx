@@ -6,7 +6,7 @@ const PageHero = ({ title, desc, next }) => {
       <h1 className="text-3xl sm:text-5xl font-bold text-gray-800 dark:text-gray-200 mb-4">
         {title}
       </h1>
-      <p className="text-base sm:text-lg text-gray-800 dark:text-gray-400 mb-8 p-20">
+      <p className="text-base sm:text-lg text-gray-800 dark:text-gray-400 mb-8 ">
         {desc}
       </p>
       <a

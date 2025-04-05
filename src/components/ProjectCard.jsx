@@ -14,13 +14,13 @@ const ProjectCard = ({ project }) => {
         className="w-full h-48 object-cover rounded-md mb-4 text-cyan-700  dark:text-slate-50"
       />
       
-      <p className="text-gray-600 dark:text-gray-400">{project.language}</p>
+      <p className="font-bold text-stone-600 dark:text-stone-400">{project.language}</p>
       <p className="text-gray-600 dark:text-gray-400">{project.description}</p>
       <a
         href={project.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-primary underline mt-2 block"
+        className="text-amber-500 underline mt-2 block"
       >
         Voir le projet
       </a>

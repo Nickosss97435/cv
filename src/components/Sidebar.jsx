@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 
   return (
     <motion.aside
-      className={`fixed top-0 left-0 h-screen bg-gray-800 text-white shadow-lg transition-all duration-300 ${
+      className={`fixed top-0 left-0 h-screen bg-gray-800 dark:bg-cyan-600 text-white shadow-lg transition-all duration-300 ${
         isOpen ? "p-6 w-[256px]" : "w-16"
       } overflow-y-auto z-50`}
       initial={{ x: -200 }}
@@ -47,7 +47,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             className={`h-8 w-auto ${isOpen ? "" : "mx-auto"}`}
           />
           {isOpen && (
-            <span className="text-xl font-semibold ml-2">Mon Portfolio</span>
+            <span className="text-xl font-semibold ml-2">Nicolas QUÉRAT</span>
           )}
         </button>
       </div>
@@ -65,7 +65,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
               <NavLink
                 to={link.href} // Utilisation de `to` pour la navigation
                 className={({ isActive }) =>
-                  `flex items-center text-gray-400 hover:text-white rounded-lg transition-colors ${
+                  `flex items-center text-gray-400 dark:text-gray-800 hover:text-white rounded-lg transition-colors ${
                     isActive ? "text-white font-bold" : ""
                   }`
                 }
@@ -86,7 +86,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 
       {/* Pied de page avec copyright */}
       {isOpen && (
-        <div className="absolute bottom-0 left-0 w-full p-4 text-center text-sm text-gray-400 border-t border-gray-700">
+        <div className="absolute bottom-0 left-0 w-full p-4 text-center text-sm text-gray-400 dark:text-gray-800 border-t border-gray-700">
           &copy; {new Date().getFullYear()} Mon Portfolio. Tous droits réservés.
         </div>
       )}
