@@ -31,7 +31,7 @@ const handleWhatsAppClick = () => {
     },
     {
       id: "Resume",
-      url: "/public/CV-QUERAT_Nicolas_2025-7.pdf",
+      url: "/public/CV-QUERAT_Nicolas_2025.pdf",
       icon: <FaFilePdf />,
     },
     {
