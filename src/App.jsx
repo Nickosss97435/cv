@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import { AnimatePresence, motion } from "framer-motion"; // Importation de framer-motion
+import { AnimatePresence, motion } from "framer-motion";
 import { useTheme } from "./theme";
 import { TiAdjustBrightness, TiAdjustContrast } from "react-icons/ti";
 import Sidebar from "./components/Sidebar";
@@ -19,7 +19,7 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence mode="wait">
       <motion.div
-        key={location.pathname} // Clé unique basée sur le chemin
+        key={location.pathname}
         initial={{ opacity: 0, x: -50 }} // Animation d'entrée
         animate={{ opacity: 1, x: 0 }} // Animation active
         exit={{ opacity: 0, x: 50 }} // Animation de sortie

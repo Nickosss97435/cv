@@ -10,11 +10,11 @@ export default defineConfig({
   ],
   server: {
     host: "0.0.0.0", // Écoute sur toutes les interfaces réseau
-    port: 5173,      // Port par défaut (peut être changé si nécessaire)
+    port: 5173,      // Port par défaut
   },
   resolve: {
     alias: {
-      // Ajoutez des alias si nécessaire
+      // Autes alias
     },
   },
 });

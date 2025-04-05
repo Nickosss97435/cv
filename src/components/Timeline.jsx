@@ -4,14 +4,11 @@ import PropTypes from "prop-types";
 const Timeline = ({ items = [] }) => {
   return (
     <div className="container mx-auto px-4 py-16 max-w-4xl">
-      {/* Title Section */}
+      {/* Titre Section */}
       <div className="text-center mb-12">
-        {/* <h1 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-950 to-sky-200 uppercase">
-          Chronologie
-        </h1> */}
       </div>
 
-      {/* Timeline Content */}
+      {/* Contenu de la chronologie */}
       <div className="relative">
         {items.length > 0 ? (
           <div className="border-l-4 border-cyan-950/30 dark:border-cyan-500/30 pl-4 sm:pl-8">
@@ -22,23 +19,23 @@ const Timeline = ({ items = [] }) => {
                   index !== items.length - 1 ? "border-b border-gray-200 dark:border-cyan-500" : ""
                 }`}
               >
-                {/* Timeline Dot */}
+                {/* Point de la chronologie */}
                 <div className="absolute left-0 top-0 w-4 h-4 -translate-x-1/2 rounded-full 
                   bg-cyan-950/20 dark:bg-cyan-500/20 group-hover:bg-cyan-950/40 dark:group-hover:bg-cyan-500/40 transition-all duration-300
                   before:absolute before:w-2 before:h-2 before:bg-cyan-500 before:rounded-full 
                   before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2"/>
                 
-                {/* Date Range */}
+                {/* Date */}
                 <time className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2 block">
                   {startDate} - {endDate}
                 </time>
                 
-                {/* Company */}
+                {/* Entreprise */}
                 <p className="text-sm font-semibold text-cyan-950 dark:text-cyan-400 mb-1">
                   {company}
                 </p>
                 
-                {/* Title */}
+                {/* Titre */}
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">
                   {title}
                 </h3>
@@ -64,7 +61,7 @@ const Timeline = ({ items = [] }) => {
   );
 };
 
-// PropTypes for type checking
+// PropTypes pour la vérification du type
 Timeline.propTypes = {
   items: PropTypes.arrayOf(
     PropTypes.shape({

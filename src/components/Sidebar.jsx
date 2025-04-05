@@ -9,7 +9,7 @@ import {
   FaEnvelope,
   FaCode,
 } from "react-icons/fa";
-import { NavLink } from "react-router-dom"; // Utilisation de NavLink
+import { NavLink } from "react-router-dom";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   const links = [
@@ -33,7 +33,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       {/* Header avec logo et bouton de collapse */}
       <div
         className={`flex items-center justify-center ${
-          isOpen ? "mb-8" : "my-4" // Réduit l'espacement lorsque la sidebar est fermée
+          isOpen ? "mb-8" : "my-4"
         }`}
       >
         {/* Logo utilisé comme bouton de basculement */}
@@ -63,7 +63,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
               className="mb-4"
             >
               <NavLink
-                to={link.href} // Utilisation de `to` pour la navigation
+                to={link.href}
                 className={({ isActive }) =>
                   `flex items-center text-gray-400 dark:text-gray-800 hover:text-white rounded-lg transition-colors ${
                     isActive ? "text-white font-bold" : ""

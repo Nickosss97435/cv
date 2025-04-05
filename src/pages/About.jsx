@@ -1,6 +1,5 @@
 import React from "react";
 import PageHero from "../components/PageHero";
-import Timeline from "../components/Timeline";
 import LogoSection from "../components/LogoSection";
 
 const About = () => {
@@ -39,9 +38,6 @@ const About = () => {
       {/* Section d'introduction */}
       <PageHero title="À Propos" desc={desc} next={next} />
 
-      {/* Chronologie */}
-      {/* <Timeline /> */}
-
       {/* Sections des logos */}
       <LogoSection title="LANGAGES" logoArray={LOGO} />
       <LogoSection title="BASES DE DONNÉES & REQUÊTES" logoArray={DB} />
@@ -68,7 +64,7 @@ const About = () => {
             <div className="flex flex-col sm:flex-row items-center justify-evenly py-4">
               <div className="w-32 p-4">
                 <img
-                  src="/assets/logo/vite.svg" // Assurez-vous que les fichiers existent
+                  src="/assets/logo/vite.svg"
                   alt="Vite"
                   title="Vite"
                   width="100%"

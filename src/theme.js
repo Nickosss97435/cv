@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export const useTheme = () => {
-  // Définir le thème initial en fonction des préférences du système
+  // Thème initial
   const [theme, setTheme] = useState(() => {
     if (typeof window !== "undefined") {
       return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
@@ -9,7 +9,7 @@ export const useTheme = () => {
     return "light";
   });
 
-  // Mettre à jour la classe `dark` sur l'élément <html>
+  // Mets à jour la classe `dark` sur l'élément <html>
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
@@ -17,7 +17,6 @@ export const useTheme = () => {
       document.documentElement.classList.remove("dark");
     }
 
-    // Écouter les changements des préférences du système
     const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
     const handleChange = (e) => {
       setTheme(e.matches ? "dark" : "light");

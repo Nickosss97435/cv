@@ -64,7 +64,7 @@ const handleWhatsAppClick = () => {
 
   return (
     <div className="min-h-screen relative flex flex-col items-center justify-center bg-gradient-to-r from-cyan-500 to-slate-600 dark:from-cyan-900 dark:to-slate-800 p-8">
-      {/* Effet d'atome */}
+      {/* Effet Atome */}
       <Particles className="absolute inset-0 z-0" init={particlesInit} options={particleOptions} />
 
       {/* Contenu principal */}
@@ -115,9 +115,6 @@ const handleWhatsAppClick = () => {
                 <span className="font-semibold">Adresse :</span> {aboutData.address}, {aboutData.CP}{" "}
                 {aboutData.ville}, {aboutData.region}
               </p>
-            {/* <p className="text-lg animate-fade-in-delay-5">
-              {aboutData.CP} {aboutData.ville}, {aboutData.region}
-            </p> */}
           </div>
         </div>
       </div>
