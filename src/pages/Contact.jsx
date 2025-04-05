@@ -5,7 +5,7 @@ const Contact = () => {
   // Fonction pour gérer le téléchargement du CV
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "https://cv.b2nservices.com/media/CV%20-%20QUERAT%20Nicolas%2012%20-%202020.pdf";
+    link.href = "/public/CV-QUERAT_Nicolas_2025-7.pdf";
     link.download = "CV-Nicolas-QUÉRAT.pdf";
     link.click();
   };

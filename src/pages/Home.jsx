@@ -31,7 +31,7 @@ const handleWhatsAppClick = () => {
     },
     {
       id: "Resume",
-      url: "https://cv.b2nservices.com/media/CV%20-%20QUERAT%20Nicolas%2012%20-%202020.pdf",
+      url: "/public/CV-QUERAT_Nicolas_2025-7.pdf",
       icon: <FaFilePdf />,
     },
     {

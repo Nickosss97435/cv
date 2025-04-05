@@ -3,7 +3,7 @@
       "title": "mondistri.re",
       "company": "HZH MONDISTRI",
       "Date": "2020-06-01",
-      "image": "../assets/mondistri-re.png",
+      "image": "../assets/mondistri.re-2.png",
       "link": "https://mondistri.re",
       "language": "ReactJS, SCSS, Bootstrap",
       "description": "Site vitrine pour le compte de HZH MONDISTRI."
@@ -12,7 +12,7 @@
         "title": "transportphilou.re",
         "company": "Transport PHILOU",
         "Date": "2020-06-01",
-        "image": "../assets/Transportphilou-re.png",
+        "image": "../assets/Transportphilou-2.png",
         "link": "https://transportphilou.re",
         "language": "ReactJS, SCSS, Bootstrap",
         "description": "Site vitrine pour le compte de Transport PHILOU."
@@ -21,7 +21,7 @@
         "title": "vtcstephanie.re",
         "company": "VTC STEPHANIE",
         "Date": "2020-06-01",
-        "image": "../assets//vtc-stephanie.png",
+        "image": "../assets/VTC_Stephanie-2.png",
         "link": "https://vtcstephanie.re",
         "language": "ReactJS, ViteJS, TailwindCSS",
         "description": "Site vitrine pour le compte de VTC STEPHANIE."
@@ -30,18 +30,27 @@
         "title": "electricplus.re",
         "company": "ELECTRIC PLUS RÉUNION",
         "Date": "2020-06-01",
-        "image": "../assets/electricplus-re.png",
+        "image": "../assets/electricplus.re.png",
         "link": "https://electricplus.re",
         "language": "ReactJS, SCSS, Bootstrap",
         "description": "Site vitrine pour le compte de ELECTRIC PLUS RÉUNION du GROUPE BLANDIN DISTRIBUTION."
       },
       {
-        "title": "Applicatiffes",
-        "company": "ELECTRIC PLUS RÉUNION",
+        "title": "API-Electrical",
+        "company": "B2N Services",
         "Date": "2020-06-01",
-        "image": "../assets/electricplus-re.png",
+        "image": "../assets/API_Electrical-2.png",
         "link": "#",
-        "language": "Python",
-        "description": "Applicatif de traitement des données."
+        "language": "ReactJS, ViteJS, TailwindCSS, NodeJS",
+        "description": "API métiér électricité pour le compte de ELECTRIC PLUS RÉUNION du GROUPE BLANDIN DISTRIBUTION."
+      },
+      {
+        "title": "API-Inventory",
+        "company": "B2N Services",
+        "Date": "2020-06-01",
+        "image": "../assets/API-Palettes.png",
+        "link": "#",
+        "language": "ReactJS, ViteJS, TailwindCSS, NodeJS",
+        "description": "API Inventaire pour le compte de ELECTRIC PLUS RÉUNION du GROUPE BLANDIN DISTRIBUTION."
       }
   ]

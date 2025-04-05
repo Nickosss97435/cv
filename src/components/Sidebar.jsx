@@ -13,11 +13,12 @@ import {
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   const links = [
     { name: "Présentation", href: "/", icon: <FaHome /> },
+    { name: "À Propos", href: "/languages", icon: <FaCode /> },
     { name: "Expérience", href: "/experience", icon: <FaBriefcase /> },
     { name: "Formation", href: "/education", icon: <FaGraduationCap /> },
     { name: "Projets", href: "/projects", icon: <FaProjectDiagram /> },
     { name: "Contact", href: "/contact", icon: <FaEnvelope /> },
-    { name: "Langages", href: "/languages", icon: <FaCode /> },
+    
   ];
 
   return (

@@ -7,13 +7,14 @@ const ProjectCard = ({ project }) => {
       className="bg-white/90 dark:bg-gray-800/90 p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300"
       whileHover={{ scale: 1.05 }}
     >
+      <h3 className="text-xl font-bold text-cyan-950 dark:text-cyan-500">{project.company}</h3>
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-48 object-cover rounded-md mb-4"
+        className="w-full h-48 object-cover rounded-md mb-4 text-cyan-700  dark:text-slate-50"
       />
-      <h3 className="text-xl font-bold text-cyan-950 dark:text-cyan-500">{project.company}</h3>
-      <p className="text-gray-600 dark:text-gray-400">{project.Date}</p>
+      
+      <p className="text-gray-600 dark:text-gray-400">{project.language}</p>
       <p className="text-gray-600 dark:text-gray-400">{project.description}</p>
       <a
         href={project.link}
