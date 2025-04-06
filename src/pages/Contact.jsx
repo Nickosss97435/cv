@@ -5,7 +5,7 @@ const Contact = () => {
   // Fonction pour gérer le téléchargement du CV
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/public/CV-QUERAT_Nicolas_2025.pdf";
+    link.href = "/CV-QUERAT_Nicolas_2025.pdf";
     link.download = "CV-Nicolas-QUÉRAT.pdf";
     link.click();
   };
